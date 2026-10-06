@@ -497,7 +497,7 @@ class MachineApp {
       
       // Desoup it all.
       const desoupedText = llmSoupToText(llmResponseData.content);
-      const desoupedThoughts = llmSoupToText(llmResponseData.reasoning_content);
+      const desoupedThoughts = llmSoupToText(llmResponseData.reasoning);
       
       const newCmjMessage = {
         role: 'assistant',
